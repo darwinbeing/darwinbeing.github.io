@@ -1,10 +1,10 @@
 # Site settings
-title: Code2Bits
-email: andre.mare@gmail.com
+title: youdriveai
+email: litroncn@gmail.com
 description: >
   Code2Bits is my personal site where I blog about software engineering,
-  software architecture and all things I have learned in my IT career. 
-url: https://www.code2bits.com
+  software architecture and all things I have learned in my IT career.
+url: https://www.youdriveai.com
 author: André Maré
 baseurl: ""
 twitter:
