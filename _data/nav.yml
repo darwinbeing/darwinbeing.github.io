@@ -1,0 +1,24 @@
+- name: Home
+  path: index.html
+  section_id: home
+- name: Cheatsheets
+  path: cheatsheets
+  section_id: cheatsheets
+- name: Homebrew
+  path: homebrew
+  section_id: homebrew
+- name: Guidelines
+  path: guidelines
+  section_id: guidelines
+  children:
+    - name: User Stories
+      path: user-story-guidelines
+- name: Blog
+  path: blog/
+  section_id: blog
+- name: About
+  path: about.html
+  section_id: about
+  children:
+    - name: Online CV
+      path: online-cv/

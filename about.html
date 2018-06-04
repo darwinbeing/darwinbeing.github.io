@@ -1,0 +1,100 @@
+---
+layout: default
+title: About Me
+section_id: about
+skills:
+  - title: Leadership
+    percentage: 87
+  - title: Gracious Behavior
+    percentage: 95
+  - title: Communication
+    percentage: 83
+  - title: Passion
+    percentage: 82
+  - title: Pragmatism
+    percentage: 85
+  - title: Vision
+    percentage: 80
+  - title: Business Knowledge
+    percentage: 79
+testimonials:
+  - quote: Andre has proven himself to be an excellent architect with a comprehensive grasp of the various perspectives and layers related to the actual architecture, design and implementation of SOA solutions.
+    author: Ryan Staiger, Programme Executive, Nedbank GT
+  - quote: Andre has always held a deep pride in his work, and sets a very high standard which others rightfully look up to.
+    author: André van der Schyff, Architect at Atlassian
+  - quote: Andre is a dedicated worker and diligent worker. He has great technical knowledge and is a great team worker. I would recommend Andre to anyone in my company and to my contacts.
+    author: Chris Kleb, Solutions Architect at Investec Private Bank
+---
+
+<div class='full parallax' style='background-image: url(assets/images/main/about_me.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="About Me" color="#fff" tagline="Know something about me" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>Personal Statement</h3>
+      <p align="justify">I'm a Solution Architect with 18 years’ experience in the IT industry specialising as a Solutions Architect, Integration Architect and Software Engineer. I currently work as a Solution Architect at Standard Bank where I am responsible for the architecture of the bank’s Omni-Channel platform. I also formed an integral part of the bank’s strategy and rollout of an integration platform across multiple countries within Africa.</p>
+      <p align="justify">I am very adaptable, being able to acquire and use new skills rapidly and effectively. I am comfortable with pressure and have the ability to adapt to today’s digital disruptive business environment through minimal structures, continuous learning and communication. I have first rate communication skills and negotiation skills, able to convey difficult technical issues to all areas of the business.</p>
+      <p align="justify">I am professional, dedicated and highly motivated. I also have good team leadership skills and mentor fellow employees. I have the ability to structure the environment I work in through excellent decision making skills, creative and innovative thinking, and making sound judgements. I have the ability and knowledge to work in operational and strategic environments.</p>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>My Skills</h3>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percentage}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="What My Colleagues Say" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
