@@ -19,6 +19,3 @@
 - name: About
   path: about.html
   section_id: about
-  children:
-    - name: Online CV
-      path: online-cv/
