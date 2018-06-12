@@ -50,6 +50,7 @@ git clone https://github.com/vedderb/bldc.git
 ```
 
 compile default
+
 ```
 cd bldc
 touch conf_general.h
@@ -58,12 +59,14 @@ make upload
 ```
 
 compile servoout
+
 ```
 cd bldc
 touch conf_general.h
 make -j8 build_args="-DSERVO_OUT_ENABLE=1 -DHW_VERSION_60"
 make upload
 ```
+
 If you want to skip downloading and compiling the bootloader and firmware from sources I prepared prebuilt images. You can download these [VESC_default.bin](assets/uploads/VESC_default.bin) [VESC_servoout.bin](assets/uploads/VESC_servoout.bin) and skip to the flashing section of this post.
 
 **reference**  
