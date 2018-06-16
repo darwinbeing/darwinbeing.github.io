@@ -2,7 +2,7 @@
 layout: post
 title:  "OpenSCAD Building on macOS"
 permalink: /:title
-date:   2018-06-10 00:00:00
+date:   2018-06-16 00:00:00
 author: LI Tao
 images:
   - assets/images/OpenSCAD/OpenSCAD.jpg
