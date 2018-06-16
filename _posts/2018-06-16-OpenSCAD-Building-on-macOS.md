@@ -91,7 +91,7 @@ change the line -lqscintilla2 to -lqscintilla2_qt5, rerun the command.
 
 ![alt text][image1]
 
-prebuilt image: [OpenSCAD.app](assets/uploads/OpenSCAD.zip) 
+prebuilt image: [OpenSCAD.app](assets/uploads/OpenSCAD.zip) (macOS Sierra 10.12.6)
 
 **reference**  
 * [Building OpenSCAD from Sources](http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Building_OpenSCAD_from_Sources)
