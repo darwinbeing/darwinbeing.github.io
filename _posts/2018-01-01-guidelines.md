@@ -5,7 +5,7 @@ permalink: /guidelines
 date:   2018-01-01 00:00:00
 author: André Maré
 images:
-  - assets/images/blog-header/business-man-3-2.jpg
+  - assets/images/blog-header/kuc105_dma_v2.jpg
 excerpt:
   A guideline is a statement by which to determine a course of action. A guideline aims to streamline particular processes according to a set routine or sound practice. By definition, following a guideline is never mandatory. Guidelines are not binding and are not enforced.
 
